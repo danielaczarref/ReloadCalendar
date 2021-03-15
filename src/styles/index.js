@@ -52,3 +52,10 @@ export const FontXL = styled.Text.attrs((props) => ({
     line-height: 29px;
     text-align: ${(props) => props.textAlign || 'left'};
 `;
+
+export const Separator = styled.View`
+    border-bottom-width: 1px;
+    border-bottom-color: ${colors.taupe_gray};
+    margin-vertical: ${(props) => props.marginVertical || 0};
+    margin-horizontal: ${(props) => props.marginHorizontal || 0};
+`;
