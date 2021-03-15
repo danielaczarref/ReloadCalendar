@@ -16,6 +16,8 @@ target 'ReloadCalendar' do
 
   pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
 
+  pod 'RNTextGradientView', :path => '../node_modules/react-native-text-gradient'
+
   target 'ReloadCalendarTests' do
     inherit! :complete
     # Pods for testing

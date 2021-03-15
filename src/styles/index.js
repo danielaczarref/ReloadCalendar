@@ -24,3 +24,23 @@ export const FontMd = styled.Text.attrs((props) => ({
     font-size: 14px;
     text-align: ${(props) => props.textAlign || 'left'};
 `;
+
+export const FontLg = styled.Text.attrs((props) => ({
+    maxFontSizeMultiplier: props.maxFontSizeMultiplier || 2,
+}))`
+    color: ${(props) => props.color || colors.xiketic};
+    font-family: ${fonts.fontBold};
+    font-size: 16px;
+    line-height: 24px;
+    text-align: ${(props) => props.textAlign || 'left'};
+`;
+
+export const FontXL = styled.Text.attrs((props) => ({
+    maxFontSizeMultiplier: props.maxFontSizeMultiplier || 2,
+}))`
+    color: ${(props) => props.color || colors.xiketic};
+    font-family: ${fonts.fontBold};
+    font-size: 24px;
+    line-height: 29px;
+    text-align: ${(props) => props.textAlign || 'left'};
+`;

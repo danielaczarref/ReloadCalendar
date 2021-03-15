@@ -24,7 +24,7 @@ const Avatar: React.FC<AvatarProps> = ({ name, source, onPress, accessibilityLab
 
             <SC.AvatarImageContainer
                 accessibilityRole="image"
-                source={{ uri: source }}
+                source={source}
             />
 
         </SC.ContainerAvatar>

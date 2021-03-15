@@ -1,14 +1,14 @@
 import React from 'react';
-import { Text } from 'react-native';
-import Avatar from '../../components/atomos/Avatar';
+import Header from '../../components/moleculas/Header';
 
 import * as SC from './styles'
 
 export default function HomePage() {
+
+  const sourceImg = require('./assets/user.jpg'); 
   return (
     <SC.Container>
-      <Avatar name="Daniela Carvalho" />
-      <Text>Teste</Text>
+      <Header name="Daniela Carvalho" source={sourceImg} />
     </SC.Container>
   )
 }

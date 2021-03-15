@@ -9,7 +9,8 @@ export default function RouterComponent() {
         shadowOpacity: 0,
         borderBottomWidth: 1,
         elevation: 0,
-      }}>
+      }}
+      >
       <Stack key="root">
         <Scene key="mainPage" hideNavBar component={Home} initial />
       </Stack>
