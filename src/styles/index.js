@@ -7,6 +7,7 @@ export const colors = {
     cultured: '#F5F3F5',
     xiketic: '#1B1725',
     taupe_gray: '#8C8A93',
+    white: '#ffffff',
 }
 
 export const fonts = {
