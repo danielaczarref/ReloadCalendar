@@ -1,7 +1,7 @@
 import React from 'react';
 import { AvatarProps } from './types';
 import * as SC from './styles';
-import { Text } from 'react-native';
+import * as S from '../../../styles';
 
 const Avatar: React.FC<AvatarProps> = ({ name, source, onPress, accessibilityLabel, }: AvatarProps) => {
     let initials = (name && name.match(/\b\w/g)) || [];
@@ -16,9 +16,9 @@ const Avatar: React.FC<AvatarProps> = ({ name, source, onPress, accessibilityLab
         >
             {!!initials && (
                 <SC.AvatarNameContainer>
-                <Text>
+                <S.FontMd textAlign="center" maxFontSizeMultiplier={1.5} >
                     {initials}
-                </Text>
+                </S.FontMd>
                 </SC.AvatarNameContainer>
             )}
 

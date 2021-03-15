@@ -14,6 +14,8 @@ target 'ReloadCalendar' do
 
   pod 'RNWatch', :path => '../node_modules/react-native-watch'
 
+  pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
+
   target 'ReloadCalendarTests' do
     inherit! :complete
     # Pods for testing
